@@ -1,0 +1,16 @@
+.remaining-wrapper {
+  background-color: #424242;
+  border: 1px solid #424242;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.remaining-title {
+  color: #eaeaea;
+}
+.progressBar {
+  margin-top: 16px;
+  border: 1px solid #aeaeae;
+  color: #ef5f3c;
+}

@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import { AppProvider } from './context/AppContext';
+import AddSingleDonation from './components/AddSingleDonation';
+import RemainingBudget from './components/Remaining';
+import NumberOfDonations from './components/NumberOfDonations';
+import FakeButtons from './components/FakeButtons';
+import './style/App.css';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppProvider>
+      <div className='container'>
+        <h2 className=''>Little Rocket Developer Challenge</h2>
+        <p className=''>Created by Kate Cook </p>
+        <p> kecook@gmail.com</p>
+
+        <div className='info-wrapper'>
+          <div className=''>
+            <RemainingBudget />
+          </div>
+          <div className='main-section'>
+            <div></div>
+
+            <div className=''>
+              <NumberOfDonations />
+            </div>
+
+            <div className=''>
+              <AddSingleDonation />
+            </div>
+          </div>
+
+          <div className='fake-buttons'>
+            <FakeButtons />
+          </div>
+        </div>
+      </div>
+    </AppProvider>
   );
-}
+};
 
 export default App;

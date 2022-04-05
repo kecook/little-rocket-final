@@ -1,0 +1,23 @@
+.container {
+  margin: auto;
+  width: 50%;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  color: #777;
+}
+.title {
+  text-align: center;
+}
+
+.main-section {
+  border: 1px solid #eaeaea;
+}
+.info-wrapper {
+  max-width: 450px;
+}
+
+.fake-buttons {
+  max-width: 450px;
+  padding-top: 16px;
+}

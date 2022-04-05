@@ -1,0 +1,15 @@
+.wrapper-days-left {
+  align-content: center;
+}
+
+.days-donors-wrap {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.orange-words {
+  color: #ef5f3c;
+  font-weight: 800;
+}
+.numDonations {
+  font-weight: 800;
+}

@@ -1,0 +1,13 @@
+.fake-buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fake-button {
+  padding: 16px;
+  border: #eaeaea;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #777;
+  font-size: 16px;
+}

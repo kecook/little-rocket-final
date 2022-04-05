@@ -1,0 +1,32 @@
+.section-wrapper {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+/* .input-and-button {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.input-field {
+  border: 2px solid #eaeaea;
+  padding: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.give-now-btn {
+  padding: 16px;
+  color: #eaeaea;
+  background-color: #1cbc2c;
+  border: #1cbc2c;
+  border-radius: 5px;
+  min-width: 160px;
+  margin-left: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+.why-give {
+  color: #20a1d4;
+  font-style: italic;
+}
